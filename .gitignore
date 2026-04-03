@@ -1,0 +1,15 @@
+# Build output
+out/
+cache/
+
+# Environment variables (NEVER commit keys)
+.env
+.env.*
+!.env.example
+
+# Foundry cache
+broadcast/
+*/broadcast/
+
+# Dependency source (handled via git submodules)
+# lib/ is kept as submodule references
